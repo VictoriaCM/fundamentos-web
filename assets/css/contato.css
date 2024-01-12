@@ -1,0 +1,87 @@
+html{
+    height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    text-decoration: none;
+    outline: none;
+}
+
+#menu li {
+    display: inline;
+    padding: 30px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgb(216, 235, 236);
+    font-size: 25px;
+}
+
+#menu li a:hover {
+    color: rgb(207, 141, 36);
+}
+
+
+.titulopag {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(178, 137, 95);
+    max-width: none;
+    height: 150px;
+    font-size: 40px;
+
+}
+
+.br-50{
+    border-radius: 50%;
+    width:55%;
+    height:60%;
+}
+
+.contato{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(175, 90, 51, 0.865);
+    height: 450px;
+    font-size: 19px;
+    color: azure;
+    padding-left: 20px;
+}
+
+.botaoContato {
+    background-color: rgba(208, 159, 110, 0.777);
+    color: azure;
+    border-bottom-style: solid;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.endereco{
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-items: center;
+    height: 450px;
+    font-size: 24px;
+    font-weight: 900;
+    color:brown;
+    padding-left: 20px;
+}
+
+footer {
+    margin: 0;
+    background-color: rgb(178, 137, 95);
+    padding: 12px;
+    filter: opacity(0.9);
+    font-weight: bold;
+    color: azure;
+}
